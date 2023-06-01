@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        color: white;
+    }
+
+    html {
+        background-color: #18181b;
+        font-family: InterVariable, Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+    }
+
+    .wrapper {
+        width: 721px;
+        height: 40px;
+        display: flex;
+        margin: auto;
+        margin-top: 40px;
+        background-color: #212124;
+        border-radius: 20px;
+        border:0px solid rgba(63, 63, 70, 0.8);
+        border-width: 1px;
+        
+    }
+
+    .wrapper li {
+        display: block;
+        font-weight: 600;
+        flex-grow: 1;
+        font-size: 14px;
+        color: #E4E4E7;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .content {
+        width: 768px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .title-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .left-wrapper {
+        width: 512px;
+    }
+
+    .right-wrapper {
+        width: 160px;
+        height: 160px;
+        background-color: #A1A1AA;
+        border-radius: 20px;
+    }
+
+    .right-wrapper img{
+        width: inherit;
+        height: inherit;
+        border-radius: 20px;
+    }
+
+    .career {
+        color: #D4D4D8;
+        margin-top: 4px;
+        font-size: 18px;
+        /* font: 14px; */
+    }
+
+    .intro {
+        color: #A1A1AA;
+        margin-top: 16px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .subtitle {
+        margin-top: 48px;
+    }
+
+    .subtitle h2 {
+        font-size: 24px;
+        color: #D4D4D8;
+    }
+
+    .subtitle p {
+        color: #A1A1AA;
+        margin-top: 16px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .tech-stack {
+        margin: 48px 0;
+    }
+
+    .tech1 {
+        display: flex;
+        margin: 16px;
+        height: 44px;
+        /* background-color: #444242; */
+    }
+
+    .icon-wrapper {
+        flex: 1;
+        display: flex;
+        align-items: center;
+    }
+
+    .icon {
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 44px;
+        height: 44px;
+        border-radius: 999px;
+        opacity: 1;
+        border-top: 3px solid #3f3f46;
+        /* border-color: rgb(152, 48, 48); */
+        background-color: #27272a;
+    }
+
+    .icon img {
+        display: block;
+        width: 28px;
+        height: 28px;
+    }
+
+    .tech-name {
+        margin-left: 20px;
+        font-size: 18px;
+        color: #A1A1AA;
+    }
+</style>
+
+<body>
+    <div class="header">
+        <div class="wrapper">
+            <li>Me</li>
+            <li>Database</li>
+            <li>Back End</li>
+            <li>Front End</li>
+            <li>Linux</li>
+            <li>Computer Science</li>
+        </div>
+    </div>
+    <div class="content">
+        <div class="title-wrapper">
+            <div class="left-wrapper">
+                <h1>Scoheart</h1>
+                <p class="career">Full-Stack Learner</p>
+                <p class="intro">Hi, here! I'm Scoheart, a student studying at the JS University. In my free time, I
+                    like to
+                    explore unknown domain, such as React on the Front-End, Spring on the Back-End.</p>
+            </div>
+            <div class="right-wrapper">
+                <img src="image/scoheart.jpg" alt="">
+            </div>
+        </div>
+        <div class="subtitle">
+            <h2>Running in the Dark</h2>
+            <p>I'm building web apps using native web components on my job. But, I love exploring new build tools,
+                programing languages and frameworks. Here is a list of technologies that I have my eyes on.</p>
+        </div>
+        <div class="tech-stack">
+            <div class="tech1">
+                <div class="icon-wrapper">
+                    <span class="icon">
+                        <img src="./image/javascript-color.svg" alt="">
+                    </span>
+                    <span class="tech-name">JavaScript</span>
+                    
+                </div>
+                <div class="icon-wrapper">
+                    <span class="icon">
+                        <img src="./image/react-color.svg" alt="">
+                    </span>
+                    <span class="tech-name">React</span>
+
+                </div>
+            </div>
+
+            <div class="tech1">
+                <div class="icon-wrapper">
+                    <span class="icon">
+                        <img src="./image/vuedotjs-color.svg" alt="">
+                    </span>
+                    <span class="tech-name">Vue.js</span>
+
+                </div>
+                <div class="icon-wrapper">
+                    <span class="icon">
+                        <img src="./image/astro-color.svg" alt="">
+                    </span>
+                    <span class="tech-name">Astro</span>
+
+                </div>
+            </div>
+
+            <div class="tech1">
+                <div class="icon-wrapper">
+                    <span class="icon">
+                        <img src="./image/nextdotjs-color.svg" alt="">
+                    </span>
+                    <span class="tech-name">Next.js</span>
+
+                </div>
+                <div class="icon-wrapper">
+                    <span class="icon">
+                        <img src="./image/svelte-color.svg" alt="">
+                    </span>
+                    <span class="tech-name">Svelte</span>
+
+                </div>
+            </div>
+
+            <div class="tech1">
+                <div class="icon-wrapper">
+                    <span class="icon">
+                        <img src="./image/nodedotjs-color.svg" alt="">
+                    </span>
+                    <span class="tech-name">Nodejs</span>
+                </div>
+                <div class="icon-wrapper">
+                    <span class="icon">
+                        <img src="./image/typescript-color.svg" alt="">
+                    </span>
+                    <span class="tech-name">TypeScript</span>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
