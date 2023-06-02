@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="wrapper">
+            <li>Me</li>
+            <li>Database</li>
+            <li>Back End</li>
+            <li>Front End</li>
+            <li>Linux</li>
+            <li>Computer Science</li>
+        </div>
+    </div>
+
+    <div class="name"> </div>
+
+    <script type="text/template" src="./content.js" id="tem1"></script>
+    <script type="text/html" id="tem">
+        <div>scoheart</div>
+        <li>Me</li>
+        <li>Database</li>
+        <li>Back End</li>
+        <li>Front End</li>
+        <li>Linux</li>
+        <li>Computer Science</li>
+</script>
+
+    <script>
+        const a = document.querySelector("#tem1")
+        console.log(a)
+        console.dir(a)
+        console.dir(a.innerHTML)
+        document.querySelector('.name').innerHTML = a.innerHTML
+    </script>
+
+</body>
+
+</html>
