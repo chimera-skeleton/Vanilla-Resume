@@ -1,0 +1,49 @@
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-wrapper {
+    width: 512px;
+    height: 162px;
+}
+
+.name {
+    height: 40px;
+    line-height: 40px;
+    font-size: 36px;
+    margin-bottom: 4px;
+    color: #fff;
+}
+
+.career {
+    height: 24px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 16px;
+    color: #D4D4D8;
+}
+
+.intro {
+    height: 78px;
+    line-height: 26px;
+    color: #A1A1AA;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.right-wrapper {
+    width: 160px;
+    height: 160px;
+    background-color: #A1A1AA;
+    border-radius: 20px;
+}
+
+.avatar{
+    width: inherit;
+    height: inherit;
+    border-radius: 20px;
+}
+

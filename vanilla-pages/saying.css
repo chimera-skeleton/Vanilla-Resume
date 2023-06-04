@@ -1,0 +1,35 @@
+.saying {
+    margin-top: 48px;
+}
+
+.saying h2 {
+    height: 24px;
+    line-height: 24px;
+    font-size: 24px;
+    color: #D4D4D8;
+    margin-bottom: 4px;
+}
+
+.saying .zh {
+    line-height: 26px;
+    color: #D4D4D8;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+
+.saying .en {
+    line-height: 26px;
+    color: #A1A1AA;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+
+.saying .conclusion {
+    line-height: 26px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 48px;
+    color: #D4D4D8;
+}
